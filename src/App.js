@@ -6,6 +6,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" component={Projects}/>
           <Route path="/contact" component={Contact}/>
         </Switch>
+        <Footer />
 
 
       </div> 
