@@ -5,9 +5,9 @@ function Home() {
   return (
     <div className="homePage">
       <h1>Hi, <br></br>I'm Steven, <br></br> And I develop software</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum quam error libero aliquam sunt id ullam nam esse eum tempora, enim laudantium cum minus neque. Rerum quia ad magni!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem distinctio quis incidunt debitis qui, pariatur vitae modi laborum possimus ipsa eaque ducimus earum! At consectetur nulla accusantium doloribus deserunt!</p>
-      
+      <img src="" alt="Professional graphic of myself"/>
+      <h4>On this website you can check out who I am and what I've been up to recently.<br></br>
+        If you're looking for someone skilled in developing or maintaining websites, software or databases<br></br> then I might be able to help.</h4>      
     </div> //App
   );
 }

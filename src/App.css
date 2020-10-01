@@ -1,37 +1,72 @@
 /*
 Contains app, navabar & footer css
 */
+
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-}
-.nav-links{
-  height: 84px;
-  background-color: black;
-  
-}
-.navbarImg{
-  float: left;
-  height: 83px;
-  border-bottom: 1px solid black;
-}
-.nav-items button{
-  font-size: x-large;
-  color: white;
-  background-color: black;
-  width: 8%;
-  height: 84px;
-  float: left;
   
 }
 
-.nav-items button:hover{
-  background: red;
+nav{
+  background-color: black;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul{
+  padding:0;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-links li{
+  float: left;
+  list-style-type: none;
+  
+
+}
+
+.nav-links li a{
+  text-align: center;
+  padding: 39px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: 1px solid red;
+  font-size: larger;
+}
+
+.nav-links li a:hover{
+  background-color: red;
+}
+
+.nav-links img{
+  height: 96px;
+
+}
+
+@media screen and (max-width:800px){
+  .nav-links li{
+    float: none;
+    width: auto;
+    
+  }
+
+  .nav-links li a{
+    padding: 10px;
+
+  }
 }
 
 .clr{
   clear: both;
 }
+
 
 #main-footer{
   text-align: center;
